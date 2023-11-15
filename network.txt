@@ -1,0 +1,25 @@
+Model Summary:
+Layer                Parameters      Trainable 
+---------------------------------------------
+embedding.weight     9216            True      
+lstm.weight_ih_l0    262144          True      
+lstm.weight_hh_l0    262144          True      
+lstm.bias_ih_l0      1024            True      
+lstm.bias_hh_l0      1024            True      
+lstm.weight_ih_l0_reverse 262144          True      
+lstm.weight_hh_l0_reverse 262144          True      
+lstm.bias_ih_l0_reverse 1024            True      
+lstm.bias_hh_l0_reverse 1024            True      
+lstm.weight_ih_l1    524288          True      
+lstm.weight_hh_l1    262144          True      
+lstm.bias_ih_l1      1024            True      
+lstm.bias_hh_l1      1024            True      
+lstm.weight_ih_l1_reverse 524288          True      
+lstm.weight_hh_l1_reverse 262144          True      
+lstm.bias_ih_l1_reverse 1024            True      
+lstm.bias_hh_l1_reverse 1024            True      
+fc.weight            18432           True      
+fc.bias              36              True      
+---------------------------------------------
+Total Parameters: 2657316
+Trainable Parameters: 2657316
