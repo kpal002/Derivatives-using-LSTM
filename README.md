@@ -24,6 +24,7 @@ Key Parameters and Dimensions
 - num_layers: The number of LSTM layers in the model. (2)
 
 Training involves minimizing the loss between the predicted and actual derivatives, with a focus on accuracy as the primary performance metric. The entire dataset was split into train:val:test in the ratio 75:10:15. Mean accuracy on the holdout test data is 0.84. However, if instead of the entire expression of the predicted derivative matching with the true derivative, we focus on character level matching, the mean accuracy score goes upto 0.97.
+
 ![Unknown-6](https://github.com/kpal002/Derivatives-using-LSTM/assets/49849134/19d25314-b37a-4941-baa1-2c87513e5b06)
 
 
